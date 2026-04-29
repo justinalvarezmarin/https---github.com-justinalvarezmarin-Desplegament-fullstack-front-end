@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // Pon AQUÍ tu URL real de Railway (la que empieza por https)
-const RAILWAY_URL = 'https://tu-proyecto-backend.up.railway.app/api/v1';
+const RAILWAY_URL = 'https://desplegament-fullstack-production.up.railway.app/api/v1';
 
 const apiClient = axios.create({
   // Si la variable de Vercel falla, usará la de Railway que acabamos de escribir
