@@ -14,7 +14,7 @@ export const useConflictStore = defineStore('conflict', {
       try {
         this.conflicts = await ConflictService.getAll()
       } catch (err) {
-        this.error = "Error de connexió: Assegura't que el Backend d'IntelliJ està actiu."
+        this.error = "Error de connexió: Assegura't que el Backend està actiu."
         console.error(err)
       } finally {
         this.loading = false
